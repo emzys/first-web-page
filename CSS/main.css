@@ -1,0 +1,189 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ html {
+     font-size: 10px;
+ }
+
+ body {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ p {
+     font-size: 1.6rem;
+ }
+
+ /* NAVIGATION   */
+ nav {
+     /* font-size: 0; */
+     /* podajemy font-size tu w rodzicu i w nav li a żeby zniknął błąd htmla tworzący odstęy między inline-blockami */
+     height: 50px;
+     background-color: rgb(51, 51, 51);
+     text-align: center;
+     line-height: 50px;
+ }
+
+ nav li {
+     display: inline-block;
+ }
+
+ nav li a {
+     padding: 0 40px;
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 1.6rem;
+     letter-spacing: 2px;
+     transition: color .3s;
+ }
+
+ nav li a:hover {
+     color: rgb(51, 107, 133);
+ }
+
+ /* HEADER */
+ .header-img {
+     position: relative;
+     height: 200px;
+     background-image: url('../IMG/ship.jpg');
+     background-position: 50% 61%;
+     background-repeat: no-repeat;
+ }
+
+ .header-text {
+     position: absolute;
+     top: 50%;
+     left: 35%;
+     transform: translate(-50%, -50%);
+     color: #fff;
+     text-shadow: 3px 3px 5px black;
+     text-transform: uppercase;
+ }
+
+ .header-bg {
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, .4);
+ }
+
+ header h1 {
+     font-size: 4.3rem;
+     margin-bottom: 10px;
+ }
+
+ /* MAIN */
+ main {
+     width: 60%;
+     margin: 50px auto;
+ }
+
+ .about-us-heading {
+     font-size: 3rem;
+     margin-bottom: 30px;
+     text-align: center;
+     text-transform: uppercase;
+ }
+
+ section {
+     margin: 40px 0;
+ }
+
+ .about-us-section {
+     position: relative;
+     height: 300px;
+     background-attachment: fixed;
+     /* background-position: center; */
+     border-top-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+     /* overflow: hidden; */
+     background-size: cover;
+
+     /* background-size: 100% 50%; */
+ }
+
+ img {
+     max-width: 100%;
+     height: 100%;
+ }
+
+ .top {
+     background-image: url('../IMG/sailing-4414252_1920.jpg');
+     background-position: 100% 65%;
+ }
+
+ .middle {
+     background-image: url('../IMG/waters-3113472_1920.jpg');
+     background-position: 15% 50%;
+ }
+
+ .bottom {
+     background-image: url('../IMG/mostar-4596513_1920.jpg');
+     background-position: 60% 25%;
+ }
+
+ background-image {
+     max-width: 100%;
+     height: 100%;
+ }
+
+ .about-us-text {
+     position: absolute;
+     bottom: 20px;
+     padding: 20px 40px;
+     color: #fff;
+     text-align: center;
+     z-index: 1;
+ }
+
+ .about-us-text h3 {
+     font-size: 2rem;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+ }
+
+ .about-us-bg {
+     position: absolute;
+     bottom: 0;
+     height: 50%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, .4);
+     border-bottom-right-radius: 50px;
+ }
+
+ .services li {
+     font-size: 1.6rem;
+ }
+
+ .contact-info p {
+     padding: 1rem;
+     font-size: 1.6rem;
+     text-align: center;
+ }
+
+ /* FOOTER */
+ footer {
+     height: 80px;
+     line-height: 80px;
+     color: rgb(206, 206, 206);
+     background-color: rgb(51, 51, 51);
+     text-align: center;
+ }
+
+ .foot-ico {
+     margin-left: 35px;
+ }
+
+ .foot-ico i {
+     color: rgb(206, 206, 206);
+     padding: 0 5px;
+     font-size: 2rem;
+     transition: color .3s;
+ }
+
+ .foot-ico i:hover {
+     color: rgb(51, 107, 133);
+ }
